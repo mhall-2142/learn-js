@@ -1,5 +1,10 @@
 {
     "editor.formatOnSave": true,
     "editor.wordWrap": "on",
-    "html.format.wrapLineLength": 0
+    "html.format.wrapLineLength": 0,
+    "javascript.validate.enable": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+    "editor.defaultFormatter": "standard.vscode-standard"}, "[javascriptreact]": {"editor.defaultFormatter": "standard.vscode-standard"},
+    "standard.autoFixOnSave": true,
 }
